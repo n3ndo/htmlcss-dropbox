@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-color{
+    background-color: rgb(180, 208, 231);
+}
+.container-full{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-xl{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 991px;
+    margin: 0 auto;
+}
+
+.squares-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+
+
+.content-testa{
+    background-color: red;
+    border: 1px solid black;
+}
+
+.content-corpo{
+
+    border: 1px solid black;
+}
+
+.content-griglia{
+    background-color: red;
+    border: 1px solid black;
+    height: calc(100vw / 6);
+    display: flex;
+}
+
+.col-33{
+    width: calc(100% / 3 );
+}
+
+.col-20{
+    width: calc(100% / 5);
+}
+.col-50{
+    width: 50%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.block{
+    display: block;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.padding-10-0{
+    padding: 10px 0px;
+}
+.padding-0-15{
+    padding: 0px 15px;
+}
+.margin-10-0{
+    margin: 10px 0px;
+}
+
+.width-100{
+    max-width: 100%;
+}
+.jc-end{
+    justify-content: end;
+}
+
+/* header */
+
+.list-type{
+    list-style-type: none;
+}
+.inline{
+    display: inline;
+    padding: 0px 10px;
+}
+
+.button-style-1{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(0, 97, 255);
+    color: white;
+}
+
+.button-style-2{
+    border: 1px solid grey;
+    padding: 5px 10px;
+    background-color: white;
+    color: grey;
+}
+
+/* main */
+
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.hr-col-33{
+    width: 20%;
+    margin: 10px 0px;
+}
+
+.check{
+    color: rgb(0, 97, 255);
+    font-weight: 500;
+}
