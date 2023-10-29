@@ -11,6 +11,14 @@ body{
 .bg-color{
     background-color: rgb(180, 208, 231);
 }
+
+.grey{
+    color: grey;
+}
+
+.border-lightgrey{
+    border: 1px solid lightgrey;
+}
 .container-full{
     max-width: 100%;
     margin: 0 auto;
@@ -59,7 +67,6 @@ body{
 
 
 .content-testa{
-    background-color: red;
     border: 1px solid black;
 }
 
@@ -118,27 +125,154 @@ body{
     display: block;
 }
 
+/* PADDING */
 .padding-10{
     padding: 10px;
 }
 
+.padding-25{
+    padding: 25px;
+}
 .padding-10-0{
     padding: 10px 0px;
 }
+
+.padding-10-20{
+    padding: 10px 20px;
+}
+.padding-15-0{
+    padding: 15px 0px;
+}
+.padding-20-0{
+    padding: 20px 0px;
+}
+
+.padding-40-0{
+    padding: 40px 0px;
+}
+
+.padding-70-60{
+    padding: 70px 60px;
+}
+
 .padding-0-15{
     padding: 0px 15px;
 }
+
+.padding-15-0{
+    padding: 15px 0px;
+}
+
+.padding-right-40{
+    padding-right: 40px;
+}
+.padding-right-110{
+    padding-right: 110px;
+}
+
+.padding-bottom-10{
+    padding-bottom: 10px;
+}
+
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+
+.padding-top-45{
+    padding-top: 45px;
+}
+/* MARGIN */
 .margin-10-0{
     margin: 10px 0px;
 }
 
+.margin-right-15{
+    margin-right: 15px;
+}
+
+.margin-0-15{
+    margin: 0px 15px;
+}
+
+.margin-left-15{
+    margin-left: 15px;
+}
+.margin-20-0{
+    margin: 20px 0px;
+}
+
+.margin-70-0{
+    margin: 70px 0px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
 .width-100{
     max-width: 100%;
 }
-.jc-end{
-    justify-content: end;
+
+/* FONT SIZE */
+
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-15{
+    font-size: 15px;
 }
 
+.font-size-17{
+    font-size: 17px;
+}
+
+.font-size-25{
+    font-size: 25px;
+}
+
+.font-size-35{
+    font-size: 35px;
+}
+
+.font-size-50{
+    font-size: 50px;
+}
+.font-size-80{
+    font-size: 80px;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.ai-center{
+    align-items: center;
+}
+.dp-flex{
+    display: flex;
+}
 /* header */
 
 .list-type{
@@ -151,14 +285,14 @@ body{
 
 .button-style-1{
     border: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     background-color: rgb(0, 97, 255);
     color: white;
 }
 
 .button-style-2{
     border: 1px solid grey;
-    padding: 5px 10px;
+    padding: 10px 10px;
     background-color: white;
     color: grey;
 }
@@ -183,4 +317,8 @@ h4{
 .check{
     color: rgb(0, 97, 255);
     font-weight: 500;
+}
+
+.min-height-col{
+    min-height: 911px;
 }
