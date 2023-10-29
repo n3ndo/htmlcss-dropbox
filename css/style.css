@@ -16,6 +16,9 @@ body{
     color: grey;
 }
 
+.darkred{
+    color: rgb(97, 8, 41);
+}
 .border-lightgrey{
     border: 1px solid lightgrey;
 }
@@ -130,6 +133,9 @@ body{
     padding: 10px;
 }
 
+.padding-15{
+    padding: 15px;
+}
 .padding-25{
     padding: 25px;
 }
@@ -151,6 +157,9 @@ body{
     padding: 40px 0px;
 }
 
+.padding-80-0{
+    padding: 80px 0px;
+}
 .padding-70-60{
     padding: 70px 60px;
 }
@@ -159,8 +168,8 @@ body{
     padding: 0px 15px;
 }
 
-.padding-15-0{
-    padding: 15px 0px;
+.padding-right-50-perc{
+    padding-right: 50%;
 }
 
 .padding-right-40{
@@ -240,12 +249,19 @@ body{
     font-size: 17px;
 }
 
+.font-size-20{
+    font-size: 20px;
+}
 .font-size-25{
     font-size: 25px;
 }
 
 .font-size-35{
     font-size: 35px;
+}
+
+.font-size-40{
+    font-size: 40px;
 }
 
 .font-size-50{
