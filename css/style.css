@@ -246,6 +246,11 @@ body{
 .padding-top-45{
     padding-top: 45px;
 }
+
+.padding-griglia-6{
+    padding: 15px 25px 15px 15px;
+}
+
 /* MARGIN */
 
 .margin-20{
@@ -270,8 +275,8 @@ body{
     margin: 20px 0px;
 }
 
-.margin-70-0{
-    margin: 70px 0px;
+.margin-90-0{
+    margin: 90px 0px;
 }
 .margin-bottom-20{
     margin-bottom: 20px;
@@ -402,7 +407,7 @@ h4{
 }
 
 .min-height-col{
-    min-height: 911px;
+    min-height: 915px;
 }
 
 .line-height{
@@ -433,4 +438,8 @@ h4{
 }
 .b-radius{
     border-radius: 15px;
+}
+
+.filter{
+    filter: invert(100%);
 }
