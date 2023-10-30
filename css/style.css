@@ -12,15 +12,24 @@ body{
     background-color: rgb(180, 208, 231);
 }
 
+.bg-color-black{
+    background-color: black;
+}
 .grey{
     color: grey;
 }
 
+.lightgrey{
+    color: lightgrey;
+}
+.white{
+    color: white;
+}
 .darkred{
     color: rgb(97, 8, 41);
 }
-.border-lightgrey{
-    border: 1px solid lightgrey;
+.border-grey{
+    border: 1px solid grey;
 }
 .container-full{
     max-width: 100%;
@@ -70,12 +79,9 @@ body{
 
 
 .content-testa{
-    border: 1px solid black;
 }
 
 .content-corpo{
-
-    border: 1px solid black;
 }
 
 .content-griglia{
@@ -157,6 +163,10 @@ body{
     padding: 40px 0px;
 }
 
+.padding-50-0{
+    padding: 50px 0px;
+}
+
 .padding-80-0{
     padding: 80px 0px;
 }
@@ -164,6 +174,9 @@ body{
     padding: 70px 60px;
 }
 
+.padding-0-5{
+    padding: 0px 5px;
+}
 .padding-0-15{
     padding: 0px 15px;
 }
@@ -172,6 +185,9 @@ body{
     padding-right: 50%;
 }
 
+.padding-right-60-perc{
+    padding-right: 60%;
+}
 .padding-right-40{
     padding-right: 40px;
 }
@@ -236,6 +252,9 @@ body{
     max-width: 100%;
 }
 
+.width-10{
+    width: 10%;
+}
 /* FONT SIZE */
 
 .font-size-12{
@@ -337,4 +356,28 @@ h4{
 
 .min-height-col{
     min-height: 911px;
+}
+
+.line-height{
+    line-height: 1.6;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.absolute-2{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.b-radius{
+    border-radius: 15px;
 }
